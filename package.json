@@ -1,0 +1,17 @@
+{
+  "name": "regxl",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "repository": "https://github.com/scaredmonad/regxl.git",
+  "author": "scaredmonad <voidptr9@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "npx ts-node-esm ./tests/main.test.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}
