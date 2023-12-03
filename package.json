@@ -7,11 +7,11 @@
   "author": "scaredmonad <voidptr9@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "npx tsc",
-    "test": "npx ts-node-esm ./tests/main.test.ts"
+    "build": "npx tsc -w",
+    "test": "node ./tests/main.test.js"
   },
   "devDependencies": {
-    "ts-node": "^10.9.1",
-    "typescript": "^5.3.2"
+    "typescript": "^5.3.2",
+    "uvu": "^0.5.6"
   }
 }
