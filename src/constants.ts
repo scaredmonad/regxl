@@ -9,8 +9,8 @@ export const WORD_BOUNDARY = "\\b";
 export const NON_WORD_BOUNDARY = "\\B";
 export const DIGIT_BOUNDARY = "\\d\\b";
 export const NON_DIGIT_BOUNDARY = "\\D\\B";
-export const START_OF_LINE = "^";
-export const END_OF_LINE = "$";
+export const SOL = "^";
+export const EOL = "$";
 
 export const OPTIONAL = "?";
 export const ZERO_OR_ONE = "?";
