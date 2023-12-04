@@ -2,7 +2,7 @@ import { test } from "uvu";
 import * as assert from "uvu/assert";
 import { ParserGenerator } from "../dist/index.js";
 
-test("pass", () => {
+test("number literals and expressions", () => {
   const parser = new ParserGenerator();
 
   const numberRule = Symbol("number");

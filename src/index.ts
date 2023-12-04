@@ -1,5 +1,8 @@
 import { Rule, ASTNode } from "./types.js";
 
+export * from "./types.js";
+export * from "./constants.js";
+
 export class ParserGenerator {
   private stack: { name: string; pattern: string }[] = [];
   private lastMatch: RegExpMatchArray | null = null;
